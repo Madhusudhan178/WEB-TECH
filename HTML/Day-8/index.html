@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>forms</title>
+</head>
+<body>
+     <fieldset style="background-color: aqua;">
+          <legend style="text-align: center;">Basic details</legend>
+          <form action="./form.html" method="get">
+          <label for="mymail">Enter your email:</label>
+          <input type="email" placeholder="abc@gmail.com" style="border: radius 30%;"><br><br>
+          <label for="dob">select ur DOB:</label>
+          <input type="date" min="2003-01-01" max="2024-12-31"><br>
+          <input type="range">
+          <br><br>
+          <label for="color">Select ur color</label>
+          <input type="color"><br><br>
+          <label for="dish">select one among this:</label>
+          <select name="select" id="">
+               
+               <option value="" disabled>---SELECT YOUR FOOD--</option>
+          <option value="pizza" selected>pizza</option>
+          <option value="burger" selected>burger</option>
+          <option value="coffe" selected>coffe</option>
+               </select> <br><br>
+               <label for="">Choose any file for display:</label>
+               <input type="file" name="" id="">
+               <br>
+               
+               <br>
+               <textarea name="ta"  placeholder="write ur feedback" rows="10" cols="50"></textarea>
+          <button>submit</button><br><br>
+          <button type="reset">reset</button>
+     </form>
+     </fieldset>
+</body>
+</html>
