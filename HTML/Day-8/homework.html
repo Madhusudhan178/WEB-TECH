@@ -1,11 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        background-color: bisque;
+        border:2px solid black;
+      }
+      td{
+        padding:0;
+      }
      
-</body>
+    </style>
+  </head>
+  <body>
+    <center><h2>Registration form</h2>
+    <form action="">
+      <table border="2px" >
+        <tr>
+          <td ><label for="fname" >Enter Your First name:</label></td>
+          <td><input type="text" placeholder="enter your first name" required /></td>
+        </tr>
+        <tr>
+          <td><label for="lname">Enter Your Last name:</label></td>
+          <td><input type="text"  /></td>
+        </tr>
+        <tr>
+          <td><label for="pswd">Enter Your password:</label></td>
+          <td><input type="password" required/></td>
+        </tr>
+        <tr>
+          <td><label for="pswd2">Re enter your password:</label></td>
+          <td><input type="password" required /></td>
+        </tr>
+        <tr>
+          <td><label for="">Enter Your email:</label></td>
+          <td><input type="email" required /></td>
+        </tr>
+        <tr>
+          <td><label for="">Enter Your mobileNumber :</label></td>
+          <td><input type="" pattern="[6-9]{1}[0-9]{9}" /></td>
+        </tr>
+        <tr>
+          <td><label for="">Enter Your address:</label></td>
+          <td><textarea name="address" rows="15" cols="29"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="gender">Select Your gender:</label></td>
+          <td>
+            <input type="radio" name="m"  />
+            <label for="male" >Male</label>
+            <input type="radio" name="m" />
+            <label for="female" >Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="hobby">Select Your Hobbies:</label>
+          </td>
+          <td>
+            <input type="checkbox" name="hobby[]" value="reading">Hobby1
+            <input type="checkbox" name="hobby[]" value="sports"> Hobby2
+            <input type="checkbox" name="hobby[]" value="music"> Hobby3
+          </td>
+     
+            
+
+        </tr>
+        <tr>
+          <td><label for="country">Select Your Country:</label></td>
+          <td>
+               <select name="country" id="country">
+               <option value="" disabled >Select Your country</option>
+               <option value="India" selected>INDIA</option>
+               <option value="Usa">USA</option>
+               <option value="uk" >UK</option>
+          </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="dob">Select Your DOB</label></td>
+          <td>
+               <input type="date" max="2024-05-31">
+          </td>
+        </tr>
+        <tr>
+          <td><label for="pic">Uplod your pic</label></td>
+          <td><input type="file" name="" id=""></td>
+        </tr>
+        <tr>
+          <td style="text-align: center;" colspan="2"><button>Save my data</button> <button type="reset">Reset Data</button></td>
+          
+        </tr>
+      </table>
+    </form>
+</center>
+  </body>
 </html>
