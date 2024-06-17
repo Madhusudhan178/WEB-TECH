@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>My feedback form</h1>
+    <form action="thanks.html">
+      <ul>
+        <li><label for="name">Name:</label> <input type="text" required /></li>
+        <li><label for="mail">Email:</label> <input type="email" /></li>
+        <li>
+          <label for="pswd" required>Password:</label> <input type="password" />
+        </li>
+        <br /><br />
+
+        <li>Please check all the emotions that apply to you</li>
+        <ul type="disc">
+          <li>
+            <label for="angry">Angry</label> <input type="checkbox" checked />
+          </li>
+          <li><label for="sad">Sad</label> <input type="checkbox" /></li>
+          <li><label for="happy">Happy</label> <input type="checkbox" /></li>
+          <li>
+            <label for="ambi">Ambivalent</label> <input type="checkbox" />
+          </li>
+        </ul>
+        <li>How satisified werre you with our <span title="The third form example">service?</span></li>
+        <ul type="disc">
+          <li>
+            <label for="sat">Very satisfied</label>
+            <input type="radio" name="s" checked />
+          </li>
+          <li>
+            <label for="sat">Satisfied</label> <input type="radio" name="s" />
+          </li>
+          <li>
+            <label for="sat">Didnt care</label> <input type="radio" name="s" />
+          </li>
+          <li>
+            <label for="sat">Disatisfied</label> <input type="radio" name="s" />
+          </li>
+          <li>
+            <label for="sat">Very Disatisfied</label>
+            <input type="radio" name="s" />
+          </li>
+        </ul>
+        <li>Futher comments :<textarea name="comments" placeholder="Write ur comments" rows="5" cols="25"> </textarea></li>
+        <li>Bio photo: <input type="file"><button style="border-radius: 30px;">Choose</button>
+        <li><label for="visit">LocationVisited:</label>
+          <select name="loc" id="loc" >
+               <datalist id="loc">
+                    <option value="Select ur location" selected disbabled>
+          <option value="loc" selected disabled >select ur location</option>
+          <option value="bng" >Bengaluru</option>
+          <option value="mng" >Mangaluru</option>
+          <option value="tmk" >Tumukur</option>
+          <option value="Hassan" >Hassan</option>
+     </select></li>
+     <br><br>
+     <li><button type="submit">SUBMIT</button></li>
+      </ul>
+
+    </form>
+  </body>
+</html>
