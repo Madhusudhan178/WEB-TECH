@@ -1,0 +1,8 @@
+body{
+     background-image: url(./../pngwing.com.png),url(./../pngwing.com.png),url(./../tom.jpeg);
+     background-size: 200px 150px,200px 150px,100%;
+     background-repeat: no-repeat, no-repeat ,repeat;
+     background-attachment: fixed,fixed,scroll;
+     background-position: 150px 100px,0px 0px;
+     
+}

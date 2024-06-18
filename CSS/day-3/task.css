@@ -1,0 +1,7 @@
+body{
+     background-image: url(./../pngwing.com\ \(2\).png),url(./../home.avif);
+     background-size: 250px,100%;
+     background-repeat: repeat-x,no-repeat;
+     background-position: center;
+     background-attachment: fixed,fixed;
+}
