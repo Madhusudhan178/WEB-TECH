@@ -1,0 +1,11 @@
+body{
+     background-image: url(./../SUN.png),url(./../SKY.jpg);
+     background-repeat: no-repeat;
+     background-position: 570px 150px ,550px 100px;
+     background-size: 390px,450px;
+}
+section
+{
+  padding-top:300px; 
+  padding-left: 665px;  
+}

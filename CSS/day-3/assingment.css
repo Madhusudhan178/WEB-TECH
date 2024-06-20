@@ -1,4 +1,7 @@
 body{
-     background-image: url(./../SUN.png),url(./../SUN.png),url(./../SKY.jpg);
-     
+     background-image:url(./../SUN.png),url(./../MOON.png),url(./../SKY.jpg);
+     background-repeat: no-repeat,no-repeat,no-repeat;
+     background-size: 150px,120px,1600px;
+     background-attachment: fixed,scroll,fixed;
+     background-position: -30px -15px,-30px 515px;
 }
