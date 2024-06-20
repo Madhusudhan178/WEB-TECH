@@ -1,0 +1,35 @@
+h1{
+     background-color: darksalmon;
+     text-align: center;
+     padding: 10px;
+     width:100px;
+}
+#solid{
+     border-color: aqua;
+     border-width: 2px;
+     border-style: solid;
+     /* IN ONE LINE */
+     border: 2PX solid aqua;
+}
+#dashed
+{
+    border-style: groove;
+    border-style: inlet;
+    border-style: outlet;
+    border-style: ridge;
+}
+#dotted{
+     border-top: 2px solid aqua;
+     border-right: 3px dotted yellow;
+     border-bottom: 4px dashed deeppink;
+     border-left: 2px groove magenta;
+}
+#radius{
+     border:2px solid black;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 40px;
+     border-bottom-left-radius: 60px;
+     /* border-radius:5px;all the 4 side */
+     /* border-radius:20px 50px; it will affect t-l and b-r(one) */
+}

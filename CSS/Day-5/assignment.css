@@ -1,0 +1,23 @@
+*{
+     margin: 0px;
+}
+#abc
+{
+    
+     background-color: aquamarine;
+     width:100px;
+     height:200px;
+     border-bottom-right-radius: 50px;
+     border-bottom-left-radius: 50px;
+     margin-left: 700px;
+}
+#x{
+     background-color: deeppink;
+     width:50px;
+     height:150px;
+     border-top-left-radius: 30px;
+     border-top-right-radius: 30px;
+     margin-left: 725px;
+     margin-top:350px;
+     
+}

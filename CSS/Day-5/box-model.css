@@ -1,0 +1,19 @@
+h1{
+     background-color: aqua;
+     width: 150px;
+     text-align: center;
+     border:2px solid black;
+}
+.x{
+     padding-top: 20px;
+     padding-right: 30px;
+     padding-bottom: 40px;
+     padding-left: 50px;
+}
+#a{
+     /* short-hand property */
+     /* padding:40px;this will get all 4 side */
+     /* padding:40px 200px; this will get top-bottom then right then left  */
+     /* padding:50px 25px 100px;this will get TOP,RIGHT-LEFT,BOTTOM ORDER WISE  */
+     padding:5px 10px 5px 10px;/*this will be top,right,bottom,left  */
+}
