@@ -1,0 +1,18 @@
+*{
+     margin:0px;
+}
+body{
+     background-image: url(./../man.png);
+     background-size: 500px;
+     background-repeat: no-repeat;
+     background-position: 500px 100px;
+     
+     
+}
+section{
+     background-color: aqua;
+     border-top-left-radius: 75px;
+     /* border-bottom-left-radius: 75px; */
+     width:850px;
+     margin-left:750px;
+}
