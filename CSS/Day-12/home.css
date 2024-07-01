@@ -1,0 +1,189 @@
+*{
+               margin: 0%;
+}
+.body1
+{              height: 570px;
+               width: 100%;
+               background-color: aquamarine;
+               background-image: url(https://th.bing.com/th/id/R.80a5eed21a0f9adb234eccc658b83bfc?rik=Qj5mKTVZ%2b%2b2XHw&riu=http%3a%2f%2fs3.amazonaws.com%2fwp.shaadi.com%2fblog.shaadi.com%2fprod%2fuploads%2f2017%2f02%2f23183257%2fShaadi-Blog-Cover.jpg&ehk=nriJNl1bgiLqprWSC0aYPDzPq5aeu%2bH1uDnZbNxfiK4%3d&risl=&pid=ImgRaw&r=0);
+               background-repeat:no-repeat;
+               background-size: cover;
+               display: flex;
+               /* background-image: ; url(https://img2.shaadi.com/assests/2016/images/home-logo.png) no-repeat left top              */
+}
+nav{          
+                height: 50px;
+                width: 100%;
+                /* background-color: antiquewhite; */
+                margin: 0px 101.5px;
+                display: block;
+}
+nav .link{  display: inline-flex;
+            position: relative;
+           left: 970px;
+           bottom: 30px;
+           word-spacing: 20px;
+           text-decoration: none;
+
+}
+
+.homelogo{
+               height: 50px;
+               width: 96px;
+               /* background-color: rgb(236, 233, 35); */
+               background-image: url(https://img.shaadi.com/imgs/logos/community/shaadi-v3.png);
+               background-repeat: no-repeat;
+               
+              /* background-image:  url(https://img2.shaadi.com/assests/2016/images/home-logo.png) */
+}
+.we{
+               height: 390px;
+               width: 100%;
+               background-color: rgba(115, 49, 176, 0.063);
+               
+}
+.container{
+              
+               color: rgb(240, 255, 255);
+               padding-top:300px;
+             text-align: center;
+             
+                /* margin: 290px 0px 0px; */
+}
+.cont2{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.375);
+    position: relative;
+    color: antiquewhite;
+   
+}
+.give{
+    /* word-spacing: 5px; */
+    padding: 5px;
+    
+
+}
+.begins{
+   height: 41px;
+   width: 85px;
+   font-size: 10px;
+   background-color: rgb(65, 155, 155);
+}
+.special{
+   height: 350px;
+   width: 100%;
+   background-color: rgb(251, 232, 242);
+}
+.special .someonee{
+
+   color: orange;
+   text-align: center;
+   padding-top: 30px;
+}
+.abc{
+
+ height: 190px;
+ width: 180px;
+ background-color: rgb(50, 169, 238);
+ border-radius: 100% ; 
+ display: inline-flex;
+position: relative;
+align-items: baseline;
+
+}
+.c1{
+  text-align: center;
+  padding-left: 8px;
+}
+.abc:hover{
+  background-color: rgb(96, 96, 173);
+  transition: 2s;
+}
+.contensing{
+  display: inline-flex;
+  position: relative;
+
+}
+.milliosof{
+
+  width: 100%;
+  height: 400px;
+  background-color: beige;
+
+}
+.milliosof h1{ 
+  text-align: center;
+  color: rgb(232, 101, 1);
+}
+img{
+  height: 160px;
+  width: 160px;
+ display: flex;
+ left: 130px;
+
+  padding-top: 10px;
+}
+.yourst{
+  height: 90px;
+  width: 100%;
+  background-color: rgb(255, 132, 8);
+  position: sticky;
+  top: 0px;
+  transition: 2s;
+  text-align:center;
+  transition-duration:2s;
+}
+.yourst button{
+  background-color:orange ;
+  box-border: 2px rgb(255, 255, 255);
+  padding-right: 20px;
+  margin-top: 30px;
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.162);
+ 
+}
+.yourst button :hover{
+  color: blue;
+
+}
+
+.searchby{
+    height: 500px;
+    width: 100%;
+    background-color: azure;
+}
+.searchby h2{
+   margin-top: 20px;
+}
+
+.bottom .nav{
+display: inline-block;
+}
+.download{
+  height: 80px;
+  width: 100%;
+  color: orange;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+  background-color: rgb(255, 255, 255);
+}
+.googleplay{
+  height: 60px;
+  width: 90px;
+  display: inline-block;
+  padding-left: 20px;
+}
+.ourmostpop{
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  color: orange;
+  background-color: rgb(241, 221, 241);
+  margin-top: 60px;
+}
+.MatchmakingService{
+  height: 50px;
+  width: 100%;
+  background-color: khaki;
+}

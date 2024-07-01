@@ -1,0 +1,975 @@
+*{
+    margin: 0%;
+}
+
+.img{
+    width: 100%;
+    height: 600px;
+    background-color: aquamarine;
+    background-image: url(https://img2.shaadi.com/assests/2023/images/shaadi-desktop-banner-v1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    position: relative;
+    display: flex;
+}
+.logo{
+
+    width: 170px;
+    height: 70px;
+    background-color:transparent;
+   left: 200px;
+   padding-left: 10px;
+  top: 28px;
+   position: absolute;
+   text-align: center;
+  
+}
+.login select{
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+    position: absolute;
+    top: 41px;
+    left: 70%;
+    text-decoration: none;
+    border: none;
+}
+.login a:hover{
+    text-decoration: underline;
+}
+.help select{
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+    position: absolute;
+    top: 41px;
+    left: 78%;
+    text-decoration: none;
+    border: none;
+}
+.img h1{
+    color: white;
+    position: absolute;
+    background-color: transparent;
+    top: 400px;
+    left: 540px;
+}
+.img h2{
+    color: white;
+    position: absolute;
+    background-color: transparent;
+    top: 455px;
+    left: 580px;
+}
+.details{
+    width: 70%;
+    height: 100px;
+    background-color:rgb(65, 55, 55,0.4);
+    position: absolute;
+    top: 490px;
+    left: 280px;
+}
+.details .gender label{
+    color: white;
+    position: absolute;
+    top: 17px;
+    left: 38px;
+    font-size: 20px;
+   
+}
+.details .gender #a{
+    
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 35px;
+    font-size: 17px;
+   
+}
+.details .gender select{
+    position: absolute;
+   height: 25px;
+    width: 90px;
+}
+.details  option{
+    color: black;
+    width: 52px;
+    text-align: center;
+}
+
+
+.details .age label{
+    color: white;
+    position: absolute;
+    top: 17px;
+    left: 235px;
+    font-size: 20px;
+   
+}
+.details .age #from{
+    
+    position: absolute;
+    top: 50px;
+    left: 230px;
+    height: 35px;
+    font-size: 17px;
+   
+}
+.details .age select{
+    position: absolute;
+   height: 25px;
+    width: 85px;
+}
+.details .age #b{
+    color: white;
+    position: absolute;
+    top: 49px;
+    left: 335px;
+
+}
+.details .age #to{
+    
+    position: absolute;
+    top: 49px;
+    left: 370px;
+    height: 35px;
+    font-size: 17px;
+   
+}
+.details .religion label{
+    color: white;
+    position: absolute;
+    top: 17px;
+    left: 510px;
+    font-size: 20px;
+   
+
+}
+.details .religion option{
+    color: black;
+    width: 52px;
+    text-align: center;
+}
+.details .religion #religion{
+    position: absolute;
+    top: 50px;
+    left: 510px;
+    width: 85px;
+    height: 35px;
+    font-size: 17px;
+   
+}
+.details .mothertongue label{
+    color: white;
+    position: absolute;
+    top: 17px;
+    left: 650px;
+    font-size: 20px;
+   
+}
+.details .mothertongue #mothertongue{
+    position: absolute;
+    top: 50px;
+    left: 650px;
+    width: 158px;
+    height: 35px;
+    font-size: 17px;
+   
+}
+.button button{
+    width: 150px;
+    height: 45px;
+   background-color: skyblue;
+    position: absolute;
+    top: 44px;
+    left: 860px;
+    font-size: 20px;
+    border-radius: 7px;
+    color: white;
+    border: 2px solid black;
+   
+   
+}
+.button a:link{
+    text-decoration:none;
+  
+}
+.button button:hover{
+    cursor: pointer;
+    width: 150px;
+   
+    background-color: rgb(171, 223, 243);
+    border: 3px solid black;
+
+}
+
+.body1{
+    width: 100%;
+    height: 650px;
+    background-color:white;
+    position: relative;
+}
+.body1 .body2{
+    width:63%;
+    height:185px;
+    background-color:black;
+    position:absolute;
+    top: 80px;
+    left: 280px;
+    border-radius: 20px;
+}
+.body2 .text
+{
+    width: 60%;
+    height: 150px;
+    background-color:black;
+    color: rgb(227, 204, 174);
+    position: relative;
+    display: flex;
+    top: 25px;
+    left: 30px;
+}
+.text .text1{
+    width: 148px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 16px;
+   
+    
+}
+.text1:hover{
+    text-decoration: underline;
+}
+
+
+.text .line1{
+    width: 2px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top:118px ;
+    left: 172px;
+}
+.text .text2{
+    width: 183px;
+    height: 25px;
+    background-color:black;
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 188px;
+}
+.text2:hover{
+    text-decoration: underline;
+}
+.text .line2{
+    width:1.8px;
+    height: 20px;
+    background-color:white;
+    position: absolute;
+    top:118px ;
+    left: 378px;
+}
+.text .text3{
+    width: 95px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top:120px;
+    left: 395px;
+}
+.text3:hover{
+    text-decoration: underline;
+}
+.body2 .line{
+    width: 2px;
+    height: 130px;
+    background-color: rgb(203, 127, 27);
+    position: absolute;
+    top: 28px;
+    left: 635px;
+}
+.body2 .vipimg{
+    width: 26%;
+    height: 40px;
+    background-color:black;
+    position: absolute;
+    top: 30px;
+    left: 670px;
+}
+.vipimg #i{
+    width: 100%;
+    height: 100%;
+}
+.vipimg button{
+    width: 250px;
+    height: 45px;
+   background-color:antiquewhite;
+     position: absolute;
+    top: 74px;
+    left: 0px;
+    font-size: 20px;
+    border-radius: 7px;
+    color: black;
+    border: 2px solid black;
+}
+
+.find{
+    width: 100%;
+    height: 60px;
+    background-color:white;
+    position: absolute;
+   
+    top: 340px;
+    left: 0px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    
+}
+.find #a{
+    color: rgb(236, 91, 91);
+}
+ .signup{
+    width: 100%;
+    height: 422px;
+    background-color: white;
+    position: relative;
+   
+}
+.sign{
+    width: 160px;
+    height: 160px;
+    background-color: aqua;
+    position: absolute;
+    top: 80px;
+    left: 280px;
+    border-radius: 100%;
+}
+ 
+#z,#x,#c{
+    font-size: 70px;
+    color: white;
+    margin-top: 40px;
+}
+.sign:hover{
+    background-color: rgb(34, 169, 169);
+
+}
+
+.signup #m:link{
+    
+    position: absolute;
+    top: 300px;
+    left: 320px;
+    text-decoration: none;
+}
+.signup #m:hover{
+    text-decoration: underline;
+
+}
+.signup #q{
+    position: absolute;
+    top: 340px;
+    left: 220px;
+    letter-spacing: 0px;
+    color: black;
+}
+.connect{
+    width: 160px;
+    height: 160px;
+    background-color: aqua;
+    position: absolute;
+    top: 80px;
+    left: 650px;
+    border-radius: 100%;
+}
+.connect:hover{
+    background-color: rgb(34, 169, 169);
+
+}
+ #n:link{
+    position: absolute;
+    top: 300px;
+    left: 680px;
+    text-decoration: none;
+}
+.signup #n:hover{
+    text-decoration: underline;
+
+}
+ #w{
+    position: absolute;
+    top: 340px;
+    left: 620px;
+    letter-spacing: 0px;
+    color: black;
+
+}
+
+.interact{
+    width: 160px;
+    height: 160px;
+    background-color: aqua;
+    position: absolute;
+    top: 80px;
+    left: 1000px;
+    border-radius: 100%;
+
+}
+.interact:hover{
+    background-color: rgb(34, 169, 169);
+
+}
+ #o:link{
+    position: absolute;
+    top: 300px;
+    left: 1050px;
+    text-decoration: none;
+
+}
+ #o:link:hover{
+    text-decoration: underline;
+}
+ #e{
+    position: absolute;
+    top: 340px;
+    left: 960px;
+    letter-spacing: 0px;
+    color: black;
+}
+
+.sign .a{
+width: 35px;
+height: 35px;
+background-color: white;
+border-radius: 100%;
+position: absolute;
+top: 137px;
+left: 60px;
+}
+ .sign .a b{
+    position: absolute;
+    top: 5px;
+    left: 11px;
+    font-size: 23px;
+    color: red;
+}
+
+.connect .a{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 137px;
+    left: 60px;
+}
+.connect .a b{
+        position: absolute;
+        top: 5px;
+        left: 11px;
+        font-size: 23px;
+        color: red;
+ }
+ .interact .a{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 137px;
+    left: 60px;
+}
+.interact .a b{
+        position: absolute;
+        top: 5px;
+        left: 11px;
+        font-size: 23px;
+        color: red;
+}
+
+.body3{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(242, 239, 235);
+    position: relative;
+    top: 800px;
+}
+
+.body3 .matrimony{
+    width: 100%;
+    height: 50px;
+    background-color:transparent;
+    position: absolute;
+    top: 60px;
+    text-align: center;
+}
+.block{
+    width: 90%;
+    height: 600px;
+   /* border: 1px solid black; */
+    position: relative;
+    top: 28px;
+    left: 80px;
+    
+    
+}
+.part1{
+    width: 350px;
+    height: 440px;
+   border: 1px black;
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    background-color: white;
+   
+}
+.part1 .part{
+    width: 100%;
+    height: 200px;
+    background-color:white;
+}
+.part1:hover{
+   box-shadow: 0px 1px 7px rgb(68, 61, 61);
+}
+.part1 .part h1{
+    position: absolute;
+    top: 230px;
+    left: 60px;
+}
+.part1 .part p{
+    position: absolute;
+    top: 290px;
+    left: 40px;
+    text-align: justify;
+}
+.part2{
+    width: 350px;
+    height: 440px;
+    background-color:white;
+    position: absolute;
+    top: 70px;
+    left: 470px;
+   
+}
+.part2 .part{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+.part2:hover{
+    box-shadow: 0px 1px 7px rgb(68, 61, 61);
+ }
+ .part2 .part h1{
+    position: absolute;
+    top: 230px;
+    left: 50px;
+}
+.part2 .part p{
+    position: absolute;
+    top: 290px;
+    left: 30px;
+    text-align: justify;
+}
+
+ .part3{
+    width: 350px;
+    height: 440px;
+    border: 1px black;
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    left: 879px;
+   
+}
+.part3 .part{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+.part3:hover{
+    box-shadow: 0px 1px 7px rgb(68, 61, 61);
+ }
+ .part3 .part h1{
+    position: absolute;
+    top: 230px;
+    left: 60px;
+}
+.part3 .part p{
+    position: absolute;
+    top: 290px;
+    left: 20px;
+    text-align: justify;
+}
+.story{
+    width: 100%;
+    height: 1900px;
+    background-color: aquamarine;
+    position: relative;
+    top: 800px;
+   
+}
+.story .b1{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(226, 87, 87);
+    
+}
+.b1 h1{
+    color: white;
+    position: absolute;
+    top: 21px;
+    left: 480px;
+}
+.b1 button{
+    background-color: transparent;
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    top: 21px;
+    left: 1000px;
+    color: white;
+    font-size: 19px;
+    border: 2px solid white;
+}
+.b1 button:hover{
+   background-color: white;
+   color: skyblue;
+
+}
+#a{
+    color:rgb(226, 87, 87);
+    
+    position: absolute;
+    top: 150px;
+    left: 500px;
+
+}
+.list{
+    width:100%;
+    height: 660px;
+    background-color: white;
+    
+}
+.list1{
+    width: 360px;
+    height: 190px;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 240px;
+    left: 200px;
+    
+}
+.list1 .mt{
+    width: 190px;
+    height: 30px;
+    border-bottom: 2px solid black;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+.list2{
+    width: 300px;
+    height: 190px;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 240px;
+    left: 600px;
+    
+}
+.list2 .reli{
+    width: 190px;
+    height: 30px;
+    border-bottom: 2px solid black;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 5px;
+
+}
+.list3{
+    width: 360px;
+    height: 190px;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 240px;
+    left: 940px;
+    word-spacing: 0.5px;
+    
+}
+
+.list3 .comm{
+    width: 190px;
+height: 30px;
+border-bottom: 2px solid black;
+margin-left: 50px;
+margin-top: 10px;
+text-align: center;
+padding-top: 5px;
+
+}
+.list4{
+    width: 360px;
+    height: 190px;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 480px;
+    left: 570px;
+    word-spacing: 0.5px;
+    
+}
+.list4 .matri{
+    width: 190px;
+height: 30px;
+border-bottom: 2px solid black;
+margin-left: 50px;
+margin-top: 10px;
+text-align: center;
+padding-top: 5px;
+}
+
+.download{
+    width: 100%;
+    height: 60px;
+    color: rgb(226, 87, 87);
+    background-color: rgb(227, 216, 216);
+    position: absolute;
+    padding-left: 400px;
+    padding-top: 30px;
+    display: flex;
+
+}
+.download #img1{
+  margin-left: 60px;
+  align-items: center;
+  
+}
+.download #img2{
+    margin-left: 20px;
+    align-items: center;
+    
+  }
+
+.shaadi{
+    width: 100%;
+    height: 550px;
+   background-color: white;
+    position: relative;
+    top: 90px;
+   
+}
+.shaadi img{
+    width: 200px;
+    height: 120px;
+    position: absolute;
+    left: 600px;
+    top: 30px;
+    background-color: white;
+   
+}
+.shaadi .details{
+    width: 72%;
+    height: 250px;
+   background-color: white;
+    position: absolute;
+   left: 220px;
+   top: 200px;
+}
+.shaadi .country{
+    width: 50%;
+    height: 60px;
+    position: absolute;
+    background-color: white;
+    left: 400px;
+    top: 460px;
+        float: left;
+   
+}
+.country ul{
+    font-size: 17.5px;
+    position: absolute;
+    top: 16px;
+    left: 70px;
+}
+.millions{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    position: relative;
+    top: 90px;
+}
+.millions .trust{
+    width: 230px;
+    height: 40px;
+    color: white;
+    background-color: skyblue;
+    position: absolute;
+    left : 600px;
+    padding-left: 10px;
+    padding-top: 3px;
+    letter-spacing: 0.5px;
+}
+.millions .profile{
+    width: 50%;
+    height: 90px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    position: absolute;
+    top: 43px;
+    left: 370px;
+}
+.profile .p1{
+    width: 45px;
+    height:45px;
+    border: 1px solid black;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 100%;
+}
+ #v,#j,#k{
+    margin-top: 10px;
+    color: rgb(226, 97, 97);
+ }
+ .profile  #p{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+.profile .p2{
+    width: 45px;
+    height:45px;
+    border: 1px solid black;
+    position: absolute;
+    top: 20px;
+    left: 260px;
+    border-radius: 100%;
+}
+.profile  #q{
+    position: absolute;
+    top: 30px;
+    left: 330px;
+}
+.profile .p3{
+    width: 45px;
+    height:45px;
+    border: 1px solid black;
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    border-radius: 100%;
+}
+.profile  #r{
+    position: absolute;
+    top: 30px;
+    left: 570px;
+}
+
+.millions .help{
+    width: 200px;
+    height: 250px;
+    /* border: 1px solid rgb(5, 5, 5); */
+    position: absolute;
+    top: 200px;
+    left: 190px;
+   text-align: center;
+   
+}
+.help .help1{
+    width: 80%;
+    height: 30px;
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 20px;
+    
+    
+}
+ 
+
+.company{
+    width: 200px;
+    height: 250px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 200px;
+    left: 460px;
+    text-align: center;
+}
+.company .company1{
+    width: 80%;
+    height: 30px;
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 20px;
+    
+    
+}
+.privacy{
+    width: 200px;
+    height: 250px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 200px;
+    left: 730px;
+    text-align: center;
+}
+.privacy .privacy1{
+    width: 80%;
+    height: 30px;
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 20px;
+    
+}
+
+.more{
+    width: 200px;
+    height: 250px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 200px;
+    left: 990px;
+    text-align: center;
+}
+
+.more .more1{
+    width: 80%;
+    height: 30px;
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 20px;
+    
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(133, 127, 127,0.5);
+    position: absolute;
+    top: 530px;
+}
+.footer #k{
+    position: absolute;
+    left: 120px;
+    top: 40px;
+    font-size: 14px;
+}
+.footer #m{
+    position: absolute;
+    left: 1000px;
+    top: 60px;
+    font-size: 14px;
+}

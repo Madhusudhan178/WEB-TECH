@@ -1,0 +1,99 @@
+header{
+               display: flex;
+               width: 65%;
+               height: 10vh;
+               margin: auto;
+               align-items: center;
+               justify-content: space-between;
+               
+               }
+               header nav li{
+                   display: inline;
+                   list-style: none;
+                   margin-left: 20px;
+                   font-size: 0.8rem;
+                   color: #95959d;
+               }
+               .nav-2 li{
+                   list-style: none;
+                   margin-left: 20px;
+                   color: white;
+                   justify-content: space-evenly;
+                   display: inline;
+               }
+               .nav-2{
+                   height: 6vh;
+                   width: 100%;
+                   display: grid;
+                  
+                   background-color: #ff5a60;
+               }
+               .nav-2 ul{
+                   margin-left: 245px;
+                   padding: 10px;
+               }
+               .nav-3{
+                   background-color: white;
+                   /* margin-top: 20px; */
+                   display: flex;
+                   width: 65%;
+                   height: 6vh;
+                   margin: 20px auto;
+                   align-items: center;
+                   justify-content: space-between;
+                   font-weight: bold;
+                   font-size: 0.9rem;
+                   color: #95959d;
+                   border-bottom:1px solid #53b9d2 ;
+               }
+               .nav-3 ul li{
+                   display: inline;
+                   list-style: none;
+                   margin-left: 10px;
+               }
+               .nav-3 ul #one,.nav-3 ul li:hover{
+                   color: #53b9d2;
+                   border-bottom: 3px solid #53b9d2;
+                   padding-bottom: 11px;
+               }
+               .headings{
+                   color: #72727d;
+                   width: 65%;
+                   text-align: center;
+                   margin: auto;
+                   line-height: 30px;
+               }
+               .headings h4{
+                   font: normal 30px / 33px arial;
+               }
+               .headings p{
+                   font-size: 24px;
+               }
+               .main-cont{
+                   width: 626px;
+                   float: left;
+                   margin: 0 20px 10px 260px;
+                   padding: 20px 30px 0 30px;
+                   color: #72727d;
+                   font: normal 16px / 24px arial;
+                   background: #fff;
+                   border-radius: 3px;
+                   box-shadow: 0 1px 2px rgba(43, 59, 93, 0.29);
+               }
+               .main-cont img{
+                   display: block;
+                   margin: auto;
+               }
+               .aside{
+                   padding:0 0 0 240px;
+               }
+               .page{
+                   width: 65%;
+                   margin: auto;
+                   font-size: smaller;
+               }
+               .page img{margin-left: 0px;display: inline;
+               }
+               .page p{
+                   display: inline;
+               }

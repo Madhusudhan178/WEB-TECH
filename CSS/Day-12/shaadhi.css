@@ -1,0 +1,549 @@
+*{
+               margin: 0px;
+           }
+           .nav{
+               width: 100%;
+               height: 600px;
+              
+                background-image: url(https://img2.shaadi.com/assests/2023/images/shaadi-desktop-banner-v1.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+               
+           }
+            .nav .shaadi{
+               width: 500px;
+               height: 150px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+           }
+           .nav .shaadi .login{
+               width: 500px;
+               height: 150px;
+               background-color: blue;
+               display: flex;
+            } 
+            .nav .match h1{
+               color: white;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+              
+               top: 200px;
+               position: relative;
+              
+            }
+            .nav .transparent{
+               width: 950px;
+               height: 150px;
+               background-color: rgba(1, 6, 12, 0.6);
+               display:flex ;
+               top: 250px;
+               position: relative;
+               left: 250px;
+            }
+           .looking {
+              color: rgb(243, 242, 241);
+              font-size: 18px;
+              display: flex;
+              margin-top: 40px;
+              margin-left: 30px;
+            }
+           #women{
+              width: 150px;
+              height: 30px;
+              font-size: 15px;
+              display: flex;
+              margin-top: 10px;
+              margin-left: 30px;
+              border-radius: 0px;
+           }
+           .age{
+              color: rgb(243, 242, 241);
+              font-size: 18px;
+              display: flex;
+              margin-top: -60px;
+              margin-left: 200px;
+           }
+            .transparent #aged{
+              width: 100px;
+              height: 30px;
+              font-size: 15px;
+              display: flex;
+              margin-top: 10px;
+              margin-left: 200px;
+              border-radius: 0px;
+           }
+           .to{
+              margin-top: -25px;
+              margin-left:310px ;
+              color: antiquewhite;
+           }
+            .transparent #twenty{
+              width: 100px;
+              height: 30px;
+              font-size: 15px;
+              display: flex;
+              margin-top: -25px;
+              margin-left: 330px;
+              border-radius: 0px;
+            }
+            .religion{
+              color: antiquewhite;
+              font-size: 18px;
+              display: flex;
+              margin-top: -55px;
+              margin-left: 450px;
+            }
+            .transparent #hindu{
+              width: 150px;
+              height: 30px;
+              font-size: 15px;
+              display: flex;
+              margin-top: 6px;
+              margin-left: 440px;
+              border-radius: 0px;
+            }
+            .tongue{
+              color: antiquewhite;
+              font-size: 18px;
+              display: flex;
+              margin-top: -55px;
+              margin-left: 600px;
+            }
+            .transparent #telugu{
+              width: 150px;
+              height: 30px;
+              font-size: 15px;
+              display: flex;
+              margin-top: 5px;
+              margin-left: 600px;
+              border-radius: 0px;
+            }
+            button{
+              width: 150px;
+              height: 30px;
+              font-size: 15px;
+              display: flex;
+              margin-top: -29px;
+              margin-left: 760px;
+              border-radius: 0px;
+              background-color: rgb(141, 103, 243);
+              text-align: center;
+              justify-content: center;
+            }
+            .other{
+              background-color: rgb(246, 244, 248);
+             width: 100%;
+             height: 250px;
+            }
+            *{
+              margin: 0px;
+            }
+            .special{
+              width: 400px;
+              height: 60px;
+              font-size: 30px;
+              display:relative;
+              margin-top: 50px;
+              margin-left: 450px;
+              color: rgb(248, 12, 12);
+             letter-spacing: 1px;
+            }
+            .phone{
+              width: 150px;
+              height: 150px;
+              background-color: rgb(138, 193, 240);
+              margin-left:160px ;
+              margin-top: 15px;
+              border-radius: 100%;
+            }
+           .signup{
+              width: 150px;
+              height: 150px;
+              background-color: rgb(138, 182, 231);
+              margin-left:590px ;
+              margin-top: -140px;
+              border-radius: 100%;
+           }
+           .video{
+              width: 150px;
+              height: 150px;
+              background-color: rgb(138, 178, 238);
+              margin-left:1000px ;
+              margin-top: -145px;
+              border-radius: 100%;
+           }
+           .phone #a{
+              font-size: 80px;
+              color: rgb(231, 231, 236);
+              margin-top: 40px;
+              margin-left: 45px;
+              
+           }
+           p{
+             color: transparent;
+           }
+            .b :hover{
+             font-size: 15px;
+             color: black;
+             background-color: antiquewhite;
+             width: 190px;
+             height: 20px;
+             border:2px solid black;
+           }
+              /* .signup #people{
+             width: 25px;
+             height: 25px;
+             background-color:green;
+             border-radius: 100%;
+             margin-left:500px ;
+             margin-top: 2px;
+             justify-content: center;
+             text-align: center;
+             display:relative; */
+           /* }  */
+           .signup #people{
+             font-size: 80px;
+             color: rgb(238, 238, 241);
+             margin-top: 40px;
+             margin-left: 35px;
+           }
+           .connect{
+             color:transparent;
+           }
+            .c :hover{
+             font-size: 15px;
+             color: black;
+             background-color: aliceblue;
+             width: 200px;
+             height: 20px;
+             border: 2px solid black;
+           }
+           .video #chats{
+             font-size: 80px;
+             color: antiquewhite;
+             margin-top: 40px;
+             margin-left: 35px;
+           }
+           .profiles{
+             color: transparent;
+           }
+           .d  :hover{
+             font-size: 15px;
+             color: black;
+             background-color: aliceblue;
+             width: 350px;
+             height: 20px;
+             border: 2px solid black;
+           }
+            .findyourspecial .register{ 
+             margin-left: 170px;
+             margin-top: 30px;
+             color: rgb(0, 5, 8);;
+             font-size: 35px;
+             text-decoration: none;
+           
+            }
+             .register1{
+               text-decoration: none;
+               margin-top: 50px;
+               color: rgb(138, 182, 231);
+             }
+            
+           .findyourspecial .registerfree{
+             margin-left: -50px;
+             margin-top: 10px;
+             font-size: 18px;
+           }
+            .connect2{
+             margin-left: 600px;
+             margin-top: -70px;
+             color: black;
+             font-size: 35px;
+             text-decoration: none;
+             
+             
+           }
+           .register2{
+             text-decoration: none;
+             color: rgb(138, 182, 231);
+           }
+           .findyourspecial .selectconnect{
+             margin-left: -30px;
+             margin-top: 10px;
+             font-size: 18px;
+           }
+           .findyourspecial .interact{
+             margin-left: 1010px;
+             margin-bottom: -50px;
+             color: black;
+             font-size: 35px;
+             text-decoration: none;
+           }
+           .register3{
+             text-decoration: none;
+             color: rgb(138, 182, 231);
+             /* margin-bottom:-100px ; */
+             margin-top: -100px;
+             margin-left: 10px;
+           }
+           .findyourspecial .premium{
+             margin-left: -100px;
+             margin-top: -60px;
+             font-size: 18px;
+           }
+           .space{
+             width: 100%;
+             height: 200px;
+             background-color: rgb(248, 253, 253);
+           }
+           .million{
+             width: 100%;
+             height: 300px;
+             background-color: brown;
+           }
+           .millionsuccess{
+             margin-left: 400px;
+             margin-bottom: 100px;
+             color: red;
+           }
+           .wholepart{
+             width: 100%;
+             height: 400px;
+             background-color: white;
+           }
+           .wholepart .image1{
+           width: 250px;
+           height: 200px;
+           display: block;
+           margin-left: 200px;
+           }
+           .wholepart .image2{
+           width: 250px;
+           height: 200px;
+           display: block;
+           margin-left: 550px;
+           margin-top:  -390px;
+           }
+           .wholepart .image3{
+             width: 250px;
+             height: 200px;
+             display: block;
+             margin-left: 900px;
+             margin-top: -400px;
+           }
+           .wholepart .sriandsan{
+             margin-left: 220px;
+             margin-top: 15px;
+           }
+           .wholepart .sriandsanpara{
+             margin-left: 200px;
+             font-size: 18px;
+             margin-top: 20px;
+           }
+           .wholepart .shubandnidh{
+             margin-left: 600px;
+             margin-top:15px ;
+           }
+           .wholepart .shubandnidhpara{
+             margin-left:600px ;
+             font-size: 18px;
+             margin-top: 20px;
+           }
+           .wholepart .vinandman{
+             margin-left: 920px;
+             margin-top: 15px;
+           }
+           .wholepart .vinandmanpara{
+             margin-left :900px; 
+             font-size: 18px;
+             margin-top: 20px;
+           }
+           .storysriandsan :hover{
+             font-size: 15px;
+             color: black;
+             background-color: aliceblue;
+             width: 200px;
+             height: 20px;
+             border: 2px solid black;
+             margin-left: 200px;
+             margin-top: 30px;
+           }
+           .hoversrisan {
+             margin-left: 200px;
+             color: transparent;
+           
+           }
+           .storyshubnidh :hover{
+             font-size: 15px;
+             color: black;
+             background-color: aliceblue;
+             width: 200px;
+             height: 20px;
+             border: 2px solid black;
+             margin-left: 600px;
+             margin-top: 30px;
+           }
+           .hovershubnidh{
+            margin-left: 600px;
+            color:transparent ;
+           }
+           .storyvinman :hover{
+             font-size: 15px;
+             color: black;
+             background-color: aliceblue;
+             width: 200px;
+             height: 20px;
+             border: 2px solid black;
+             margin-left: 1000px;
+             margin-top: 20px;
+           }
+           .hovervinman{
+             margin-left: 1000px;
+             color: transparent;
+           }
+           .yourstorywait{
+             width: 100%;
+             height: 100px;
+             background-color:red;
+             display: fixed;
+           }
+           .yourstorywait .waiting{
+             margin-left: 500px;
+             margin-top: 60px;
+             color: white;
+             /* font-size: 20px; */
+           }
+           .getstarted{
+             margin-top: 20px;
+             margin-left: 610px;
+             background-color: red;
+             color: white;
+             border: 2px solid white;
+           }
+           .logoofs{
+             width: 100%;
+             height: 200px;
+             background-color: white;
+           }
+           .logoofshaadi{
+             height: 100px;
+             width: 100px;
+             /* justify-content: center; */
+             margin-left: 600px;
+             margin-top: 40px;
+           }
+           .thingsofshaadi{
+             justify-content: center;
+             align-items: center;
+             color: black;
+             margin-left: 200px;
+             font-size: 18px;
+             font-style: inherit;
+           }
+           .country{
+           height: 80px;
+           width: 80%;
+           display: flex;
+           justify-content: center;
+           font-size: 20px;
+           align-items: center;
+           margin-top: 50px;
+           }
+           .country a{
+             text-decoration: none;
+             color: rgb(138, 182, 231);
+             
+           }
+           .trusted{
+             width: 100%;
+             height: 50px;
+             background-color: white;
+             margin-top: 50px;
+           }
+           .trustedmillions{
+             margin-left: 500px;
+             font-size: 20px;
+             background-color: rgb(138, 182, 231);
+             color: antiquewhite;
+             width: 250px;
+             border-color:transparent ;
+           
+           }
+             .borderuser #users{
+             height: 5px;
+             width: 5px;
+             color: red;
+             background-color: white;
+             margin-left: 6px;
+             margin-top: 5px;
+            
+           } 
+           .borderuser{
+             width: 30px;
+             height: 30px;
+             border: 1px solid black;
+             border-radius: 100%;
+             margin-left: 300px;
+           }
+           .best{
+             font-size: 18px;
+             margin-left: 40px;
+             color: black;
+             width: 100px;
+             margin-top: -15px;
+           }
+           .borderuser1{
+             width: 30px;
+             height: 30px;
+             border: 1px solid black;
+             border-radius: 100%;
+             margin-left: 500px;
+             margin-top: -30px;
+           }
+           .borderuser1 #check{
+             height: 5px;
+             width: 5px;
+             color: red;
+             background-color: white;
+             margin-left: 8px;
+             margin-top: 5px;
+           } 
+           .vprofiles{
+             font-size: 18px;
+             margin-left: 45px;
+             color: black;
+             width: 200px;
+             margin-top: -15px;
+           }
+           
+           
+           .borderuser2{
+             width: 30px;
+             height: 30px;
+             border: 1px solid black;
+             border-radius: 100%;
+             margin-left: 700px;
+             margin-top: -30px;
+           }
+           .borderuser2 #lock{
+             height: 5px;
+             width: 5px;
+             color: red;
+             background-color: white;
+             margin-left: 10px;
+             margin-top: 8px;
+           } 
+           .privacy{
+             font-size: 18px;
+             margin-left: 45px;
+             color: black;
+             width: 200px;
+             margin-top: -20px;
+           }
+           .underline{
+             width: 700px;
+             margin-left: 250px;
+             margin-top: 10px;
+           }
