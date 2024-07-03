@@ -1,5 +1,6 @@
 *{
     margin: 0%;
+    flex-wrap: wrap;
 }
 
 .img{
@@ -12,11 +13,12 @@
     background-position: 0px 0px;
     position: relative;
     display: flex;
+
 }
 .logo{
 
     width: 170px;
-    height: 70px;
+    height: auto;
     background-color:transparent;
    left: 200px;
    padding-left: 10px;
