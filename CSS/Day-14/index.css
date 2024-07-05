@@ -1,18 +1,20 @@
 *{
-     margin: 0px;
+     margin: 0;
+     padding: 0;
 }
 .nav{
      width: 100%;
-     height: auto;
+     height: 14%;
      position: fixed;
-     background-color: white;
+     z-index: 4;
+     background-color:white;
      display: flex;
      box-shadow: 0px 0px 5px black;
 }
 .nav .logo{
      width:23%;
      /* background-color: blue; */
-     height: auto;
+     height:100px;
      display: flex;
      align-items: center;
      justify-content:flex-end;
@@ -20,6 +22,7 @@
 .nav .logo img{
      width:20%;
      height:80%;
+     
 }
 .nav .links{
      width:78%;
@@ -56,12 +59,17 @@ h1{
      justify-content: space-between;
      margin-left: 350px;
 }
-.back{
+section{
+     height:80%;
+}
+.back img{
      background-image: url(./../Images/backimg.webp);
      width:100%;
      height: 600px;
-     background-repeat: no-repeat;
-     background-size: 100% 600px;
+     margin-top:120px;
+     
+     /* background-repeat: no-repeat;
+     background-size: 100% 600px; */
      
 }
 .sec2{
@@ -70,6 +78,7 @@ h1{
      height: 400px;
      display: flex;
      background-color: rgb(245, 239, 241);
+     margin: 0px;
 }
 .sec2 .left2{
      /* background-color: blue; */
@@ -252,5 +261,194 @@ img{
      /* background-color: dodgerblue; */
      width:40%;
      margin-left:160px;
+}
+.sec4{
+     /* background-color: aqua; */
+     width:100%;
+     height:500px;
+     display: flex;
 
 }
+.sec4 .sub1{
+     /* background-color: red; */
+     width:50%;
+     height:500px;
+     
+}
+.sec4 .sub1 img{
+     width:100%;
+     height: 100%;
+}
+.sec4 .sub2{
+     /* background-color: bisque; */
+     width:50%;
+     height: 500px;
+}
+.sec4 .sub2 .h1{
+     color: hotpink;
+     width:50%;
+     height:80px;
+     margin-left:150px;
+     margin-top:100px;
+     
+}
+.sec4 .sub2 .p1{
+     /* background-color: rgb(155, 126, 184); */
+     width:27%;
+     margin-left:150px;
+     text-align: justify;
+}
+.button1{
+     /* background-color: aquamarine; */
+     width:40%;
+     margin-top:-220px;
+     margin-left:450px;
+}
+.button2{
+     /* background-color: rgb(90, 10, 176); */
+     width:40%;
+     margin-left:450px;
+     margin-top:80px;
+
+}
+.button3{
+     /* background-color: rgb(16, 164, 23); */
+     width:40%;
+     margin-left:450px;
+     margin-top:40px;
+
+}
+.sec4 .sub2 button{
+     background-color: rgb(234, 108, 171);
+     width:60%;
+     font-size: 25px;
+     border-radius:40px;
+     border:2px solid red;
+     color:white;
+     text-align: center;
+}
+.sec4 .sub2 button:hover{
+     border-radius: 80px;
+     background-color:rgb(220, 143, 182);
+}
+/* Section5 Starts */
+.sec5{
+     width:100%;
+     height: 500px;
+     /* background-color: darkseagreen; */
+     
+     
+}
+.sec5 .head{
+     width:100%;
+     color:#f23d92;
+     height: 60px;
+     /* background-color: aqua; */
+     padding-top: 25px;
+     padding-left: 15px;
+     
+
+}
+.video{
+     display: flex;
+}
+.sec5 .v1{
+     width:50%;
+     height:250px;
+     /* background-color: aquamarine; */
+     display: flex;
+     justify-content: end;
+     align-items: end;
+     
+}
+.sec5 .v2{
+     width:50%;
+     height:250px;
+     /* background-color:greenyellow; */
+     margin-left:10px;
+}
+video{
+     width:60%;
+     height: 100%;
+     box-shadow: 15px 15px 55px black;
+     /* border-left: 10px solid black; */
+     /* border-right: 10px solid black; */
+     
+}
+.aboutus {
+     /* background-color: aquamarine; */
+     width: 100%;
+     height: 50px;
+     margin-top: 30px;
+     margin-left: 45%;
+}
+.aboutus button{
+     width:10%;
+     height: 35px;
+     color:whitesmoke;
+     background-color: #f23d92;
+     border-radius: 30px;
+
+
+}
+.aboutus button:hover{
+     background-color: #d69ab6;
+     border-radius: 20px;
+}
+
+button{
+     font-size: 20px;
+}
+
+/* section6 starts here  */
+
+.sec6{
+     /* background-color: aqua; */
+     width: 100%;
+     height: 200px;
+     display: flex;
+}
+.sec6 .sub1{
+     background-color: #fafafa;
+     width: 35%;
+     height: 200px;
+     margin-left:250px;
+     text-align: center;
+
+}
+.sec6 .sub2{
+     background-color:#EBEBEB;
+     width: 35%;
+     height: 200px;
+     text-align: center;
+}
+.sec6 .sub1 #h1{
+     border:5px solid black;
+     width:12%;
+     margin-left:270px;
+}
+.sec6 .sub2 #h2{
+     border:5px solid black;
+     width:12%;
+     margin-left:230px;
+}
+.vu{
+     color: #f23d92 ;
+}
+.sec6 .sub1 p{
+     margin-left:100px;
+}
+img{
+     width:35px;
+     height: 45px;
+}
+.sec7{
+     width:65%;
+     text-align: justify;
+     font-size: small;
+     margin-left: 250px;
+     color: rgb(119, 118, 118);
+     font-weight: 800;
+}
+
+
