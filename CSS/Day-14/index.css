@@ -1,6 +1,7 @@
 *{
      margin: 0;
      padding: 0;
+     object-fit: cover;
 }
 .nav{
      width: 100%;
@@ -65,11 +66,8 @@ section{
 .back img{
      background-image: url(./../Images/backimg.webp);
      width:100%;
-     height: 600px;
-     margin-top:120px;
-     
-     /* background-repeat: no-repeat;
-     background-size: 100% 600px; */
+     height: 700px;
+     object-fit: cover;
      
 }
 .sec2{
@@ -190,8 +188,12 @@ img{
 #f{
     position: relative;
     top: -220px;
-    /* right:40px; */
     rotate:-30deg;
+}
+#f1{
+     position:relative;
+     top:-260px;
+     rotate:20deg;
 }
 #s{
      position: relative;
@@ -199,23 +201,46 @@ img{
      right: 40px;
      rotate:20deg;
 }
+#s2{
+     position: relative;
+     top:-150px;
+     left:-20px;
+     rotate: -20deg;
+}
 #t{
      position:relative;
      top:-250px;
      left:320px;
      rotate: 20deg;
 }
+#t3{
+     position: relative;
+     top:-70px;
+     left:-50px;
+     rotate:20deg;
+}
 #fo{
      position: relative;
      top:-150px;
      left:280px;
 }
+#fo4{
+     position:relative;
+     top:-200px;
+     left:250px;
+     rotate:20deg;
+}
 #fi{
      position: relative;
-     
      top:-100px;
      left:240px;
      rotate:-30deg;
+}
+#fi5{
+     position:relative;
+     top:-90px;
+     left:200px;
+     rotate:-20deg;
 }
 .sec2 .right2{
      /* background-color: rgb(45, 235, 7); */
@@ -450,5 +475,3 @@ img{
      color: rgb(119, 118, 118);
      font-weight: 800;
 }
-
-
