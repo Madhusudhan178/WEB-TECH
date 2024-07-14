@@ -1,13 +1,45 @@
 *{
      margin:0px;
+     padding:0px;
 }
-header .img{
-     background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.4)), url(./../Images/Netflix\ Background.jpg);
-     width: 100vw;
-     height: 700px;
-     background-position: center;
+.main{
+     background-image: url(./../Images/Netflix\ Background.jpg);
+     height: 90vh;
+     background-position: center center;
      background-repeat: no-repeat;
+     background-size:max(1300px,100vw);
+     position:relative;
 }
+.main .box{
+     height: 90vh;
+     width:100%;
+     opacity:0.44;
+     background-color: black;position:absolute;
+     top:0;
+}
+nav{  
+     max-width: 80vw;
+     margin:auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 62px;
+}
+nav img{
+     color: red;
+     width:114px;
+     position: relative;
+     z-index:10;
+}
+nav button{
+     position:relative;
+     z-index:10;
+}
+ 
+
+
+
+
 
 
 
