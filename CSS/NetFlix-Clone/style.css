@@ -88,12 +88,25 @@ nav button {
      position: relative;
      z-index:20;
 }
+.btn-btn {
+     border-collapse: collapse;
+     background-color: transparent;
+     
+}
+.main .btn-btn select{
+     background-color: transparent;
+     color:white;
 
+}
+.main .btn-btn select option{
+     background-color: transparent;
+     color:aquamarine;
+}
 .btn {
      padding: 3px 8px;
      font-weight: 400;
-     color: white;
-     background-color: rgba(248, 243, 243, 0.042);
+     color: white; 
+     background-color: rgba(248, 243, 243, 0.042); 
      border: 1px solid white;
      cursor: pointer;
 }
@@ -111,7 +124,6 @@ nav button {
 .btn-red-sm {
      background-color: red;
      color: white;
-
 }
 
 .hero-buttons {
@@ -127,7 +139,7 @@ nav button {
      border-radius: 4px;
      background-color: rgba(23, 23, 23, 0.2);
      color: white;
-     border: 1px solid rgba(246, 238, 238, 0.5)
+     border: 1px solid rgba(246, 238, 238, 0.5);
 }
 
 .first {
@@ -137,7 +149,7 @@ nav button {
      margin: auto;
      justify-content: center;
      align-items: center;
-     flex-wrap: wrap;
+     flex-wrap: nowrap;
 }
 
 @media screen and (max-width:1300px){
