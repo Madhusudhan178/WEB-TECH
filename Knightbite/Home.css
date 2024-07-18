@@ -1,0 +1,42 @@
+* {
+     margin: 0px;
+     padding: 0px;
+}
+
+nav {
+     display: flex;
+}
+
+nav .logo {
+     width: 100vw;
+     height: 100px;
+     display: flex;
+     align-items: center;
+     font-size: 35px;
+
+}
+
+nav .logo img {
+     height: 100px;
+     width: 30%;
+}
+
+nav .links {
+     width: 100vw;
+     height: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     font-size: larger;
+     color:whitesmoke;
+
+}
+main{
+     width:100vw;
+     height: 100vh;
+     background-image:url(./Images_KB/HOMEIMG/Homebackground.webp);
+     background-size: 100vw 100vh;
+     background-repeat: no-repeat;
+     background-position: 0px 0px;
+     position: relative;
+}
