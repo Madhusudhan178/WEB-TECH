@@ -134,8 +134,34 @@ phone=[
 
 
 //by using inbuilt
-let x='madam'
-let ans=x.
+// let x='madam'
+// let ans=x.split(" ")
+
+
+var arr=[10,30,30,40,30,50]
+let array=[];
+for(let i=0;i<=(arr.length)-1;i++)
+{
+    for(let j=1;j<=(arr.length)-2;j++)
+    {
+        if(arr[i]==arr[j])
+        {
+            delete arr[i];
+        }
+    }
+    
+}
+console.log(arr);
+
+// function duplicate(arr)
+// {
+   
+//     return arr.filter((a,b) =>
+//     arr.indexOf(a)===b);
+    
+// }
+// console.log(duplicate(arr));
+
 
 
 
