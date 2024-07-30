@@ -10,3 +10,13 @@ console.log(a.innerText);
 console.log(a.textContent);
 
 
+//converting collection into array
+let ar=Array.from(q);
+console.log(ar)
+console.log(Array.isArray(ar))
+ar.map((b)=>
+    {
+        //console.log(bb);
+           console.log(b.innerHTML);
+   })
+  

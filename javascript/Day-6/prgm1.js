@@ -138,7 +138,7 @@ phone=[
 // let ans=x.split(" ")
 
 
-var arr=[10,30,30,40,30,50]
+var arr=[10,30,30,40,30,50]//arr=[10,30,40,50]
 let array=[];
 for(let i=0;i<=(arr.length)-1;i++)
 {
@@ -146,7 +146,7 @@ for(let i=0;i<=(arr.length)-1;i++)
     {
         if(arr[i]==arr[j])
         {
-            delete arr[i];
+            //
         }
     }
     
