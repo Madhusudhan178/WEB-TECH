@@ -12,7 +12,6 @@ section {
      background-position: center;
      background-repeat: no-repeat;
      background-position: 0px 0px;
-
 }
 
 section .navbar {
@@ -65,14 +64,6 @@ li {
 
 }
 
-/* .indicator{
-     margin: 5px auto;
-     height: 8px;
-     width: 8px;
-     border-radius: 5px;
-     background: #C77BF4;
-
-} */
 section .title {
      width: 100vw;
      height: 50vh;
@@ -163,5 +154,13 @@ section .button .img .page2 #google img:hover{
 
 main {
      width: 100vw;
+     height: 500px;
 
+
+}
+main .div1{
+     display:flex;
+     justify-content: center;
+     background-color: aqua;
+     padding-top: 30px;
 }
