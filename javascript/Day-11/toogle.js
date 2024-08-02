@@ -11,26 +11,44 @@
 //         x.style.color="red"
 //     }
 // }
-function f1(){
-let x=document.querySelector("input").value;
-//console.log(x);
-let z=document.querySelector("input")
-let a=document.querySelector("p");
+// function f1(){
+// let x=document.querySelector("input").value;
+// //console.log(x);
+// let z=document.querySelector("input")
+// let a=document.querySelector("p");
 
-if(x.length<5)
-{
-    z.cssstyle="border:1px solid red;"
-    a.style.color="red";
-    a.innerText="Weak password"
-}
-else if(x.length<10 &&x.length>=5)
-{
+// if(x.length>=1  &&  x.length<=5)
+// {
+//     z.style.border="2px solid red"
+//     a.style.color="red";
+//     a.innerText="Weak password"
+// }
+// else if(x.length<10 &&x.length>=5)
+// {
    
-    a.style.color="yellow";
-    a.innerText="middle password"
+//     a.style.color="yellow";
+//     a.innerText="good password"
+// }
+// else{
+//     a.style.color="green";
+//     a.innerText="strong password";
+// }
+// }
+
+function f1()
+{
+    let x=document.querySelector("input").value;
+    let a=document.querySelector("p");
+    let y=document.querySelector("img");
+    if(y.onmouseout)
+        {a.innerHTML=x;
+        }
+        else{
+            a.innerText
+        }
 }
-else{
-    a.style.color="green";
-    a.innerText="strong password";
-}
-}
+
+
+
+
+
