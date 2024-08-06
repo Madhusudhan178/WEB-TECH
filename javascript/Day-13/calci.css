@@ -1,0 +1,19 @@
+th{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 10px black;
+
+}
+th:active{
+    transform: scale(0.9);
+
+}
+
+input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: transparent;
+}

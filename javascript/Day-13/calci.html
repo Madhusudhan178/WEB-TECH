@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calci.css">
+</head>
+<body>
+    <table border="2" height="400" width="300" align="center" cellspacing="10">
+        <h1 align="center">CALCULATOR</h1>
+        <tr>
+            <th colspan="4">
+                <input disabled type="text" placeholder="Calculator">
+            </th>
+        </tr>
+        <tr>
+            <th colspan="2" onclick="clearVal()">CE</th>
+            <th onclick="getValue(event)">/</th>
+            <th onclick="getValue(event)">*</th>
+        </tr>
+        <tr>
+            <th onclick="getValue(event)">7</th>
+            <th onclick="getValue(event)">8</th>
+            <th onclick="getValue(event)">9</th>
+            <th onclick="getValue(event)">-</th>
+        </tr>
+        <tr>
+            <th onclick="getValue(event)">4</th>
+            <th onclick="getValue(event)">5</th>
+            <th onclick="getValue(event)">6</th>
+            <th onclick="getValue(event)">+</th>
+        </tr>
+        <tr>
+            <th onclick="getValue(event)">1</th>
+            <th onclick="getValue(event)">2</th>
+            <th onclick="getValue(event)">3</th>
+            <th rowspan="2" onclick="finalResult()">=</th>
+        </tr>
+        <tr>
+            <th onclick="getValue(event)">0</th>
+            <th onclick="getValue(event)">.</th>
+            <th id="del">DEL</th>
+            
+            
+        </tr>
+    </table>
+    <script src="./calci.js"></script> 
+</body>
+</html>
+
