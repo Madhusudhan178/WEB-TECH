@@ -20,4 +20,4 @@
 // })
 let urldata=fetch(`https://github.com/users`)
 console.log(urldata)
-let data=urldata.then{}
+//let data=urldata.then{}
