@@ -45,29 +45,53 @@
 
 
 
-let o={id:1,name:"pooja"};
-let o2={age:30}
-//console.log(...o,...o);//requires iteratable objects
-let z={...o,...o2};
-console.log(z)
-// let s=setInterval(function f1()
+// let o={id:1,name:"pooja"};
+// let o2={age:30}
+// //console.log(...o,...o);//requires iteratable objects
+// let z={...o,...o2};
+// console.log(z)
+// // let s=setInterval(function f1()
+// // {
+// //     let d =new Date();
+// //     console.log(d)
+// // },2000)
+
+// //addEventListener("click",function)
+
+// let arr=[10,20,10,30,10,40,50]
+// function  removeduplicate(ar){
+//     return arr.filter((item,index)=>
+//         ar.indexOf(item)===index);
+// }
+// console.log(arr)
+// let as=removeduplicate(arr)
+// console.log(as);
+// arr.filter((item,index)=>{
+//     console.log("this item is:"+item)
+//     console.log("this index is:"+index)
+//     arr.indexOf(item)===index});
+// ;
+// let s=setInterval(f1(),2000)
+// function f1()
 // {
 //     let d =new Date();
 //     console.log(d)
-// },2000)
+// }
 
-//addEventListener("click",function)
-
-let arr=[10,20,10,30,10,40,50]
-function  removeduplicate(ar){
-    return arr.filter((item,index)=>
-        ar.indexOf(item)===index);
+function a()
+{
+    b();
+    console.log(q)
+    function b()
+    {
+        console.log(w)
+    }
 }
-console.log(arr)
-let as=removeduplicate(arr)
-console.log(as);
-arr.filter((item,index)=>{
-    console.log("this item is:"+item)
-    console.log("this index is:"+index)
-    arr.indexOf(item)===index});
-;
+console.log(q)     
+console.log(this.q)
+let q=10
+var w=1;
+console.log(window.q)
+console.log(this.q)
+a();
+//b();//b is not defined 
