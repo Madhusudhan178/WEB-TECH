@@ -35,4 +35,40 @@
 // }
 // console.log(z)
 
+// const dog ={
+//     name:"dog",
+//     legcount:2,
+//     speaks:"bow bow"
+// };
 
+// class Animal
+// {
+//      Animal(name,age)
+//     {
+//         this.name=name;
+//         this.age=age;
+//     }
+//     //methods
+//     name()
+//     {
+//         console.log(`${name}`);
+//     }
+//     static age(age)
+//     {
+//         console.log(`${age}`);
+//     }
+// }
+// let a=new Animal("hello",20);
+// console.log(a)
+// Animal.age(25);
+
+
+// const d=new Date();
+// console.log(d.getTime())
+
+let str={
+    name:"hi",
+    color:"black",
+    age:35
+}
+console.log(JSON.stringify(str));
