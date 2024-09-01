@@ -5,7 +5,7 @@
 
 // Run each function to see the output, play and learn by doing.
 
-// push()
+// push()// add at end
 function pushExample(arr, element) {
     console.log("Original Array:", arr);
   
@@ -14,7 +14,7 @@ function pushExample(arr, element) {
   }
   pushExample([1, 2, 3], 4);
   
-  // pop()
+  // pop() delete at end
   function popExample(arr) {
     console.log("Original Array:", arr);
   
@@ -23,7 +23,7 @@ function pushExample(arr, element) {
   }
   popExample([1, 2, 3]);
   
-  // shift()
+  // shift()delete at begining
   function shiftExample(arr) {
     console.log("Original Array:", arr);
   
@@ -32,7 +32,7 @@ function pushExample(arr, element) {
   }
   shiftExample([1, 2, 3]);
   
-  // unshift()
+  // unshift()add at begining
   function unshiftExample(arr, element) {
     console.log("Original Array:", arr);
   
