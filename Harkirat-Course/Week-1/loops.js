@@ -70,9 +70,18 @@
 
 
 
-let b= function xyz()
-{
-    console.log("hello");
+// let b= function xyz()
+// {
+//     console.log("hello");
+// }
+// b();
+// xyz();
+
+function x(y){
+    console.log("x")
+    console.log(y)
 }
-b();
-xyz();
+
+x(function y(){
+    console.log("y");
+});
